@@ -1,0 +1,15 @@
+connect four on the command line, written completley in python
+
+have fun
+
+
+
+just
+ 
+$ python setup.py install
+
+then
+
+$ connect-four
+
+then have fun, enjoy.....

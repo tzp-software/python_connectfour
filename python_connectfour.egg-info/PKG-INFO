@@ -1,10 +1,36 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: python-connectfour
 Version: 1.0.0
-Summary: UNKNOWN
+Summary: classic connect four on the command line
 Home-page: UNKNOWN
-Author: UNKNOWN
-Author-email: UNKNOWN
+Author: Kyle Roux
+Author-email: jstacoder@gmail.com
 License: UNKNOWN
-Description: UNKNOWN
+Description: connect four on the command line, written completley in python
+        
+        have fun
+        
+        
+        
+        just
+         
+        $ python setup.py install
+        
+        then
+        
+        $ connect-four
+        
+        then have fun, enjoy.....
+        
 Platform: UNKNOWN
+Requires: c
+Requires: l
+Requires: e
+Requires: a
+Requires: r
+Requires: s
+Requires: c
+Requires: r
+Requires: e
+Requires: e
+Requires: n

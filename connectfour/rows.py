@@ -2,10 +2,9 @@
     rows.py
 '''
 import os
+from clearscreen.clearscreen import clear_screen
 
 
-def clear():
-    x = os.system('clear')
 
 
 class Row(object):
@@ -16,7 +15,7 @@ class Row(object):
 
     def __str__(self):
         return ''.join(map(str,self.col))
-        
+
 
     def __repr__(self):
         return str(self)
@@ -34,7 +33,7 @@ class Row(object):
             return True
         else:
             return False
-    
+
     def set_two(self, symbol):
         if self.set_spot(2):
             self.col[1] = '|' + symbol + '|'
@@ -60,7 +59,7 @@ class Row(object):
         if self.set_spot(5):
             self.col[4] = '|' + symbol + '|'
             return True
-    
+
     def set_six(self, symbol):
         if self.set_spot(6):
             self.col[5] = '|' + symbol + '|'
@@ -137,7 +136,7 @@ class Board(object):
         else:
             print 'Error try again'
         self.change_symbol()
-    
+
     def set_symbol(self, symbol):
         self.symbol = symbol
 
@@ -156,7 +155,7 @@ class Board(object):
 def main_loop():
     b = Board()
     while True:
-        clear()
+        clear_screen()
         print b
         b.add_to_col(int(raw_input('What column to add {} to? : '.format(b.symbol))))
 

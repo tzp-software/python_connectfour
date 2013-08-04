@@ -1,3 +1,4 @@
+README
 setup.py
 python_connectfour.egg-info/PKG-INFO
 python_connectfour.egg-info/SOURCES.txt
